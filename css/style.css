@@ -1,0 +1,673 @@
+    /*..............
+............ General css..............*/
+    
+    html,
+    body {
+        height: 100%;
+    }
+    
+    * body {
+        font-family: "Roboto Condensed", sans-serif;
+        /* font-weight: 300%; */
+    }
+    
+    p {
+        color: #64707b;
+        font-size: 16px;
+        /* font-weight: 300px; */
+    }
+    
+    h3 {
+        color: #41464b;
+        text-transform: uppercase;
+    }
+    /*..............................
+............ Home ..............*/
+    
+    #Home {
+        height: 100%;
+    }
+    
+    #home-cover {
+        background-image: url('../img/bg-home.jpg');
+        height: 100%;
+    }
+    
+    #home-content-box {
+        height: 100%;
+        width: 100%;
+        display: table;
+    }
+    
+    #home-content-box-inner {
+        display: table-cell;
+        vertical-align: middle;
+        /* text-align: center; */
+    }
+    
+    #home-heading h3 {
+        color: #fff;
+        font-size: 50px;
+        font-weight: 700%;
+        margin: 20px 0 20px 0;
+    }
+    /*..............................
+............Parallax generic ..............*/
+    
+    .bg-parallax {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    /*..............................
+............buttons generic ..............*/
+    
+    .btn-generic {
+        border-width: 2px;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        padding: 12px 22px 12px 22px;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 400;
+        width: 150px;
+    }
+    
+    .btn-white {
+        border-color: #fff;
+        color: #fff;
+    }
+    
+    .btn-white:hover,
+    .btn-white:focus {
+        background-color: #fff;
+        color: #41464b
+    }
+    
+    .btn-blue {
+        border-color: #34c6d3;
+        color: #34c6d3;
+    }
+    
+    .btn-blue:hover,
+    .btn-blue:focus {
+        background-color: #34c6d3;
+        color: #41464b
+    }
+    
+    .btn-back-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        font-size: 22px;
+        padding: 2px 15px;
+        display: none;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+    }
+    /*..............................
+............Animate ..............*/
+    
+    #home-cover {
+        -webkit-animation-delay: .1s;
+        animation-delay: .1s;
+        -webkit-animation-duration: .5s;
+        animation-duration: .5s;
+    }
+    
+    #home-heading {
+        -webkit-animation-delay: .5s;
+        animation-delay: .5s;
+        -webkit-animation-duration: .5s;
+        animation-duration: .5s;
+    }
+    
+    #home-btn {
+        -webkit-animation-delay: 1s;
+        animation-delay: 1s;
+        -webkit-animation-duration: .5s;
+        animation-duration: .5s;
+    }
+    /*..............................
+............Content Generic ..............*/
+    
+    .content-box {
+        padding: 60px 0 60px 0;
+    }
+    
+    .content-title h3 {
+        text-align: center;
+        vertical-align: middle;
+        margin: 0 0 30px 0;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    .content-title-underline {
+        width: 30px;
+        height: 3px;
+        background-color: #34c6d3;
+        margin: 0 auto 30px auto;
+    }
+    
+    #customers-testimonials {
+        padding: 10px 0;
+    }
+    
+    .content-title-white h3 {
+        color: #fff;
+    }
+    /*..............................
+............Services ..............*/
+    
+    .service-item {
+        padding: 20px 0 20px 0;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+    
+    .service-item-icon i {
+        color: #34c6d3;
+        float: left;
+        margin-right: 25px;
+        width: 75px;
+        height: 75px;
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .service-item:hover .service-item-icon i {
+        color: #fff;
+        background-color: #34c6d3;
+    }
+    
+    .service-item-title h3 {
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0 0 10px 0;
+    }
+    
+    .service-item-desc p {
+        margin: 0;
+        margin-left: 85px;
+    }
+    /*..............................
+         ..........About..............*/
+    
+    #about-bg-diagonal {
+        height: 700px;
+        width: 60%;
+        background-color: red;
+        float: right;
+        border-top: 700px solid transparent;
+        border-left: 200px solid white;
+        background-image: url('../img/bg-about.jpg');
+    }
+    
+    #about-content-box {
+        float: left;
+        height: 700px;
+    }
+    
+    #about-content-box-outer {
+        height: 100%;
+        width: 100%;
+        display: table;
+    }
+    
+    #about-content-box-inner {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    #about .about-content-title h3 {
+        text-align: left;
+        font-weight: 700;
+    }
+    
+    #about .content-title-underline {
+        margin: 0 0 30Px 0;
+        width: 50px;
+    }
+    
+    #about-desc p {
+        margin-bottom: 30px;
+    }
+    
+    #about-btn {
+        margin: 15px 0 15px 0;
+    }
+    /*..............................
+         ..........Work..............*/
+    
+    .row.no-gutters [class*=col-] {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .img-wrapper {
+        overflow: hidden;
+    }
+    
+    .img-wrapper img {
+        transition: transform .5s ease;
+        -webkit-transition: transform .5s ease;
+        -moz-transition: transform .5s ease;
+        -ms-transition: transform .5s ease;
+        -o-transition: transform .5s ease;
+    }
+    
+    .img-wrapper img:hover {
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        cursor: pointer;
+        cursor: zoom-in;
+    }
+    /*..............................
+         ..........team css..............*/
+    
+    .team-member {
+        margin: 0 15px;
+    }
+    
+    .team-member-info {
+        padding: 10px 0 30px 0;
+    }
+    
+    h4.team-member-name {
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        padding-top: 2px;
+    }
+    
+    h4.team-member-designation {
+        color: #34c6d3;
+        font-weight: 700;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 5px;
+    }
+    /*..............................
+         ..........Social list css..............*/
+    
+    .social-list {
+        padding-left: 0;
+    }
+    
+    .social-list li {
+        list-style: none;
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        margin-right: 6px;
+        margin-top: 10px;
+    }
+    
+    .social-icon {
+        font-size: 17px;
+    }
+    
+    .icon-gray {
+        color: #64707b;
+    }
+    
+    .social-list .icon-white {
+        color: #fff;
+    }
+    
+    .social-icon i:hover {
+        color: #34c6d3;
+    }
+    /*..............................
+         ..........testimonial css..............*/
+    
+    #testimonials-cover {
+        background-image: url('../img/bg-testimonials.jpg');
+    }
+    
+    #testimonial .content-box {
+        background-color: rgba(0, 0, 0, .1);
+    }
+    
+    .testimonial img {
+        max-width: 120px;
+        margin: 0 auto 0 auto;
+    }
+    
+    .testimonial-author strong {
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    .testimonial-author span {
+        color: #fff;
+        display: block;
+        padding-top: 2px;
+        font-size: 17px;
+    }
+    
+    .testimonial blockquote {
+        border: 0px;
+        font-family: georgia, sans-serif;
+        font-style: italic;
+        padding: 6px 150px;
+        position: relative;
+    }
+    
+    .testimonial blockquote p {
+        color: #fff;
+    }
+    
+    .testimonial blockquote::before,
+    .testimonial blockquote::after {
+        font-style: normal;
+        width: 30px;
+        height: 30px;
+        line-height: 1;
+        font-size: 80px;
+        color: #fff;
+        position: absolute;
+    }
+    
+    .testimonial blockquote::before {
+        content: "\201C";
+        top: 0px;
+        left: 100px;
+    }
+    
+    .testimonial blockquote::after {
+        content: "\201D";
+        bottom: 0px;
+        right: 100px;
+    }
+    /*..............................
+         ..........Pricing css..............*/
+    
+    .pricing-box {
+        border: 3px solid #34c6d3;
+        padding: 50px;
+        margin: 40px;
+    }
+    
+    h4.pricing-title {
+        background-color: #34c6d3;
+        display: inline-block;
+        color: #fff;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 10px 15px;
+        font-size: 17px;
+        margin: 0 0 30px 0;
+    }
+    
+    h4.pricing-value {
+        font-size: 60px;
+        font-weight: 700;
+    }
+    
+    h4.pricing-value sup {
+        font-size: 28px;
+        font-weight: normal;
+        vertical-align: super;
+    }
+    
+    ul.pricing-spec {
+        padding-left: 0px;
+        list-style: none;
+        margin: 0 20px 60px 0;
+    }
+    
+    ul.pricing-spec li p {
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    
+    .pricing-box-lg {
+        background-color: #34c6d3;
+        padding: 90px 0;
+        margin: 0px;
+    }
+    
+    .pricing-box-lg h4.pricing-title {
+        color: #34c6d3;
+        background-color: #fff;
+    }
+    
+    .pricing-box-lg ul.pricing-spec li p {
+        color: #fff;
+    }
+    /*..............................
+    ..........Stats css..............*/
+    
+    #stats-cover {
+        background-image: url('/img/bg-stats.jpg');
+    }
+    
+    #stats .content-box {
+        background-color: rgba(0, 0, 0, .8);
+    }
+    
+    .content-title1 h3 {
+        color: #fff;
+        text-align: center;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    
+    .stats-item {
+        padding: 100px 0
+    }
+    
+    .stats-item i {
+        color: #34c6d3;
+    }
+    
+    .stats-item h2 {
+        color: #fff;
+        font-weight: 700;
+        margin-top: 15px 0px;
+        margin-bottom: 1px;
+    }
+    
+    .stats-item p {
+        color: #fff;
+        margin-top: 3px;
+        font-weight: 300px;
+        text-transform: uppercase;
+        padding-top: 3px;
+    }
+    /*..............................
+    ..........Client..............*/
+    
+    .client {
+        padding: 40px 0
+    }
+    
+    #clients-list {
+        cursor: pointer;
+    }
+    /*..............................
+    ..........Contact..............*/
+    
+    footer {
+        background-color: #41464b;
+        padding-top: 30px;
+        border-top: 5px solid rgba(0, 0, 0, .8);
+    }
+    
+    .contact-left h3 {
+        color: #fff;
+        font-size: 27px;
+        font-weight: 700;
+    }
+    
+    .contact-left p {
+        color: #fff;
+    }
+    
+    .contact-left strong {
+        color: #fff;
+    }
+    
+    .contact-info {
+        background-image: url('../img/world-map.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    address strong {
+        letter-spacing: 1px;
+    }
+    
+    #phone-fax-email strong {
+        letter-spacing: 1px;
+    }
+    
+    .contact-right h3 {
+        color: #fff;
+    }
+    
+    form .form-control {
+        background: transparent;
+        border-radius: 0%;
+        -webkit-border-radius: 0%;
+        -moz-border-radius: 0%;
+        -ms-border-radius: 0%;
+        -o-border-radius: 0%;
+        border-color: #fff;
+        color: #fff;
+        padding: 6px 10px;
+        margin-bottom: 20px;
+    }
+    
+    .btn-general {
+        margin-bottom: 10px;
+        border-radius: 0%;
+        -webkit-border-radius: 0%;
+        -moz-border-radius: 0%;
+        -ms-border-radius: 0%;
+        -o-border-radius: 0%;
+        width: 100px;
+    }
+    /*..............................
+    ..........Footer..............*/
+    
+    #footer-bottom {
+        background-color: rgba(0, 0, 0, .1);
+        padding: 30px 0;
+        margin-top: 60px;
+    }
+    
+    #footer-copyrights p {
+        margin: 0;
+        color: #fff;
+    }
+    
+    #footer-menu {
+        float: left;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 300%;
+    }
+    
+    #footer-menu ul {
+        padding-left: 0px;
+        list-style: none;
+        margin: 0px;
+    }
+    
+    #footer-menu ul li {
+        display: inline-block;
+    }
+    
+    #footer-menu a {
+        color: #fff;
+        font-weight: 300;
+        font-size: 16px;
+        margin: 0 10px;
+        text-decoration: none;
+    }
+    
+    #footer-menu a:hover {
+        color: #34c6d3;
+    }
+    /*..............................
+    ..........Navbar..............*/
+    
+    .navbar {
+        padding: 20px 0;
+        transition: all .5s ease-in-out;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -ms-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+    }
+    
+    .vesco-top-nav {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 7px 0;
+    }
+    
+    .vesco-nav-wrapper {
+        padding: 0 85px;
+    }
+    
+    .navbar-nav {
+        float: right;
+    }
+    
+    .navbar-nav li a {
+        color: #fff;
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    
+    .navbar-nav li a:hover,
+    .navbar-nav:focus {
+        background: none;
+        color: #34c6d3;
+    }
+    /* .navbar-inverse .navbar-nav li a {
+        color: #fff;
+    } */
+    /* .navbar-inverse .navbar-nav li a:hover {
+        color: #34c6d3;
+    } */
+    
+    .navbar-toggle {
+        background-color: rgba(0, 0, 0, 0.1);
+        border: 1px solid #fff;
+    }
+    
+    .navbar-fixed-top .navbar-collapse {
+        max-height: none;
+    }
+    
+    .navbar-toggle .icon-bar.icon-bar {
+        background-color: #fff
+    }
+    
+    .navbar-toggle .navbar-icon {
+        background-color: #fff;
+    }
+    
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 15px 15px 5px;
+    }
+    
+    .vesco-top-nav ul.navbar-nav li.active a {
+        color: #34c6d3;
+    }
